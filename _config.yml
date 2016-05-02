@@ -1,4 +1,5 @@
-layout_spectrum: 1
+favicon: null
+name: Surfwagen
 opengraph:
   image: null
   type: null
@@ -28,13 +29,12 @@ color:
     - '#f1f3fc'
   lightness: 0.9676337204873562
 typography_spectrum: 0.4987469
-cta:
-  bucket: null
-  version: null
-  domain: null
+layout_spectrum: 0.7681704
 analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
-name: Surfwagen
+cta:
+  bucket: null
+  version: null
+  domain: null
