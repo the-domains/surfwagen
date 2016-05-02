@@ -1,28 +1,40 @@
-name: Surfwagen
 favicon: null
-layout_spectrum: 0.7594492111820728
-typography_spectrum: 0.8467340040951967
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Surfwagen
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.387982222950086
+  brandStrength: 0.6690432180184871
+  rhythmicContrast: 0.3647800362668931
   brandColors:
     - '#ffa251'
     - '#263226'
     - '#425574'
     - '#d2d3d9'
     - '#f1f3fc'
-  brandStrength: 0.6690432180184871
   lightness: 0.9676337204873562
-  saturation: 0.387982222950086
-  rhythmicContrast: 0.36478003626689315
-purpose: []
+typography_spectrum: 0.8467340040951967
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
